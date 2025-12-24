@@ -9,7 +9,7 @@
         public DateTime? DueDate { get; set; }
 
         public int AssignedToUserId { get; set; }
-        public User? AssignedUser { get; set; }
+
 
         public int CreatedByAdminId { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;

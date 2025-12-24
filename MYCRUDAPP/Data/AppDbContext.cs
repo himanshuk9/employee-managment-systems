@@ -9,5 +9,6 @@ namespace MYCRUDAPP.Data
 
         public DbSet<User> Users {  get; set; }
         public DbSet<TaskItem> Tasks { get; set; }
+        public DbSet<LeaveRequest> LeaveRequests { get; set; }
     }
 }
